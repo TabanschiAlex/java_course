@@ -14,7 +14,7 @@ public class ReadingNumbers {
         System.out.print("Enter numbers separated by a space: ");
         String numbers = scanner.nextLine();
 
-        return numbers.split(" ");
+        return numbers.trim().split(" ");
     }
 
     public static void printNumbers(String[] arrayNumbers) {
